@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>lecture1</name>
+=======
+	<name>jsp_hw</name>
+>>>>>>> branch 'master' of https://github.com/yena0925/jsp_hw.git
 	<comment></comment>
 	<projects>
 	</projects>
