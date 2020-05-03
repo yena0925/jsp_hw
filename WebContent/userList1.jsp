@@ -4,6 +4,7 @@
 <%
 List<User> list = UserDAO.findAll();
 %>
+
 <!DOCTYPE html>
 <html>
 <head>

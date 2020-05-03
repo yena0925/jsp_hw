@@ -57,6 +57,7 @@ public class UserDAO3 {
 		}
 	}
 
+	
 	public static User findById(int id) throws Exception {
 		String sql = "SELECT u.*, d.departmentName " +
 				"FROM user u LEFT JOIN department d ON u.departmentId = d.id " +

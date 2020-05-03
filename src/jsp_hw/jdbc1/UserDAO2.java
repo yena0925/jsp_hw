@@ -32,6 +32,7 @@ public class UserDAO2 {
 		}
 	}
 
+	
 	public static List<User> findByName(String name) throws Exception {
 		String sql = "SELECT s.*, d.departmentName " +
 				"FROM user s LEFT JOIN department d ON s.departmentId = d.id " +

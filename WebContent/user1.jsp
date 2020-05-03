@@ -6,7 +6,9 @@
 int id = Integer.parseInt(s);
 User user = UserDAO3.findById(id);
 %>
+
 <!DOCTYPE html>
+
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

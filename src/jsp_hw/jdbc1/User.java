@@ -1,5 +1,6 @@
 package jsp_hw.jdbc1;
 
+
 public class User {
 	int id;
 	String userid;
