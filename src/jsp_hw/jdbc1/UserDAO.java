@@ -13,7 +13,7 @@ public class UserDAO {
     public static List<User> findAll() throws Exception {
         String sql = "SELECT u.*, d.departmentName " +
                      "FROM User u LEFT JOIN department d ON u.departmentId = d.id";
-        try (Connection connection = DB.getConnection("student1");
+        try (Connection connection = DB.getConnection("user1");
              PreparedStatement statement = connection.prepareStatement(sql);
              ResultSet resultSet = statement.executeQuery()) {
             ArrayList<User> list = new ArrayList<User>();

@@ -15,7 +15,7 @@ User user = UserDAO3.findById(id);
 <style>
 div.container {
 	width: 600px;
-	margin: 50px auto; 
+	margin: 50px auto;
 }
 
 body {
@@ -65,7 +65,7 @@ td {
 			</tr>
 			<tr>
 				<td>이메일</td>
-				<td><%=user.getEmail()%></td> 
+				<td><%=user.getEmail()%></td>
 			</tr>
 			<tr>
 				<td>사용자유형</td>
