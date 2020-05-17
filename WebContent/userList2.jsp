@@ -71,7 +71,7 @@ td, th {
 					<td><%= user.getName() %></td>
 					<td><%= user.getEmail() %></td>
 					<td><%= user.getDepartmentName() %></td>
-					<td><%= user.getUserType() %></td>
+					<td><%= user.getUserType() %></td> 
 				</tr>
 				<% } %>
 			</tbody>

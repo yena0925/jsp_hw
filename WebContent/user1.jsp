@@ -65,7 +65,7 @@ td {
 			</tr>
 			<tr>
 				<td>이메일</td>
-				<td><%=user.getEmail()%></td>
+				<td><%=user.getEmail()%></td> 
 			</tr>
 			<tr>
 				<td>사용자유형</td>
