@@ -56,7 +56,7 @@ td {
 				<td><%=user.getName()%></td>
 			</tr>
 			<tr>
-				<td>학과ID</td>
+				<td>학과ID</td> 
 				<td><%=user.getDepartmentId()%></td>
 			</tr>
 			<tr>

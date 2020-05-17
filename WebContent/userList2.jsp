@@ -73,7 +73,7 @@ td, th {
 					<td><%= user.getDepartmentName() %></td>
 					<td><%= user.getUserType() %></td> 
 				</tr> 
-				<%}%>
+				<% } %>
 			</tbody>
 		</table>
 
