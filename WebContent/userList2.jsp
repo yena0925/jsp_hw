@@ -72,7 +72,7 @@ td, th {
 					<td><%= user.getEmail() %></td>
 					<td><%= user.getDepartmentName() %></td>
 					<td><%= user.getUserType() %></td> 
-				</tr>
+				</tr> 
 				<% } %>
 			</tbody>
 		</table>

@@ -15,7 +15,7 @@ User user = UserDAO3.findById(id);
 <style>
 div.container {
 	width: 600px;
-	margin: 50px auto;
+	margin: 50px auto; 
 }
 
 body {
