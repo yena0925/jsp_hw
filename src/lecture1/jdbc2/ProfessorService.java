@@ -10,8 +10,8 @@ public class ProfessorService {
 		if (StringUtil.isEmptyOrBlank(professor.getProfessorName()))
 			return 이름_필수;
 		return null;
-	}
-
+	} 
+ 
 	public static String insert(Professor professor) throws Exception {
 		String errorMessage = validate(professor);
 		if (errorMessage != null)

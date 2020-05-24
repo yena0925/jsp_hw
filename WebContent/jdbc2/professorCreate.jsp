@@ -10,7 +10,7 @@
 	String errorMessage = null;
 if (request.getMethod().equals("POST")) {
 	errorMessage = ProfessorService.insert(professor);
-	if (errorMessage == null) {
+	if (errorMessage == null) { 
 		response.sendRedirect("professorList1.jsp");
 		return;
 	}

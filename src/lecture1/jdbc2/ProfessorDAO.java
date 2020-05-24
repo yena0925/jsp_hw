@@ -25,8 +25,8 @@ public class ProfessorDAO {
              ResultSet resultSet = statement.executeQuery()) {
             ArrayList<Professor> list = new ArrayList<Professor>();
             while (resultSet.next())
-                list.add(getStudentFrom(resultSet));
-            return list;
+                list.add(getStudentFrom(resultSet)); 
+            return list; 
         }
     }
 
